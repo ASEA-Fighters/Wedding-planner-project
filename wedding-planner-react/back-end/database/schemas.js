@@ -33,7 +33,7 @@ let User = mongoose.model("User", userSchema, "users");
 let Stuff = mongoose.model("Stuff", stuffSchema, "allstuff");
 let Card = mongoose.model("Card", cardSchema, "cards");
 
-let save = (users) => {};
+let save = (users) => { };
 
 let saveSt = () => {
   for (var i = 0; i < stuff.length; i++) {
